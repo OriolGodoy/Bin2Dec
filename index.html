@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2Dec</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="js/main2.js"></script>
+    <script src="js/main3.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="column-1 flex padding">
+            <h1 class="fuente-v"><span class="fuente-w4">0</span><span class="fuente-w3">0</span><span class="fuente-w2">0</span><span class="padd-1 fuente-w1">0</span>Bin2Dec <span class="material-symbols-outlined">
+                clear_night
+                </span><span class="padd-2 fuente-w1">0</span><span class="fuente-w2">0</span><span class="fuente-w3">0</span><span class="fuente-w4">0</span></h1>
+        </div>
+        <div class="column-1 flex">
+            <p class="fuente-v">Inserte numero/s para iniciar la conversión</p>
+        </div>
+        <div class="column-1 flex">
+            <p class="fuente-r padd-3" id="texto-1"></p>
+            <p class="fuente-r padd-3" id="error"></p>
+        </div>
+        <div class="column-1 flex">
+            <input type="number" name="" id="numero" class="fuente-3" onkeyup="OriJS()">
+        </div>
+        <div class="column-1 flex">
+            <p class="fuente-v padd-3" id="resultado"></p>
+        </div>
+        <div class="column-1 flex">
+            <select id="select" onchange="ChangeJS()" class="ss">
+                <option value="" id="bin">Binario a decimal</option>
+                <option value="" id="Hexa" >Hexadecimal a Binario</option>
+            </select>
+        </div>
+    </div>
+</body>
+</html>
